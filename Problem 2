@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int pA[7];
+	int pB[7];
+	int pC[7];
+	cout << "Enter all temperature for a week of Province A, Province B and then Province C \n";
+	for (int i=0; i<7; i++)
+	{
+		cout << "Province A: ";
+		cin >> pA[i];
+		cout << "Province B: ";
+		cin >> pB[i];
+		cout << "Province C: ";
+		cin >> pC[i];
+	}
+	cout << "\n Displaying values: \n";
+	for (int i=0; i<7; i++)
+	{
+		cout << "Province A: " << pA[i] << endl;
+		cout << "Province B: " << pB[i] << endl;
+		cout << "Province C: " << pC[i] << endl;
+	}	
+	
+	return 0;
+}
